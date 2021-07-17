@@ -45,11 +45,11 @@ int main()
             }
         }     
         if(flag==1){
-            cout<<"Number found"<<endl;
+            cout<<"YES"<<endl;
             cout<<"Total comparison: "<<comparison<<endl;
         }
         else{
-            cout<<"Number not found"<<endl;
+            cout<<"No"<<endl;
             cout<<"Total comparison: "<<comparison<<endl;
         }
     }   
