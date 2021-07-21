@@ -10,7 +10,7 @@ void Binary_search(int* arr, int l, int h,int key){
         if(arr[mid]==key){
             flag=1;break;
         }else if(arr[mid]>key)
-            h=mid-1;
+            h=mid-1;-
         else if(arr[mid]<key)
             l=mid+1;
     }
@@ -38,7 +38,7 @@ int main()
             file>>arr[i];
         int key;
         file>>key;
-        int comparison=0,flag=0;
+        int comparison=0;
         Binary_search(arr,0,n-1,key);
     }   
     file.close(); 
