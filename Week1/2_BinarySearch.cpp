@@ -38,7 +38,6 @@ int main()
             file>>arr[i];
         int key;
         file>>key;
-        int comparison=0;
         Binary_search(arr,0,n-1,key);
     }   
     file.close(); 
