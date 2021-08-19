@@ -8,21 +8,21 @@
 
 using namespace std;
 
-// void swap(int* arr, int i, int j){
-//     arr[i] = arr[i] + arr[j];
-//     arr[j] = arr[i] - arr[j];
-//     arr[i] = arr[i] - arr[j];
-// }
+void swap(int* arr, int i, int j){
+    int temp = arr[i];
+    arr[i] = arr[j];
+    arr[j] = temp;
+}
 
 int part(int* arr, int l, int h){
     int pivot_ele = arr[h],i=l;
     for(int j=l; j <=h ; j++){
         if(arr[j]<pivot_ele){
             i++;
-            swap(arr[j],arr[i]);
+            swap(arr,j,i);
         }
     }
-    swap(arr[h],arr[i]);
+    swap(arr,h,i);
     return i;
 }
 
