@@ -1,2 +1,2 @@
-# DAA-Lab-Assignments
-Lab assignments of Design and Analysis of Algorithm(DAA)
+# DAA-LabWork-Assignments-Tutorials
+Lab work, asssignments, tutorials of Design and Analysis of Algorithm(DAA)
