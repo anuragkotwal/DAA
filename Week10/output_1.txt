@@ -1,0 +1,2 @@
+No. of non conflicting activities: 4
+list of selected activities: 1 4 7 10 
