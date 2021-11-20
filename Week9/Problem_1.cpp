@@ -5,7 +5,7 @@
     cin.tie(NULL)
 
 #define endl "\n"
-#define V 4
+#define V 5
 #define INF INT_MAX 
 
 using namespace std;
@@ -30,10 +30,11 @@ void FloydWarshall(int dist[][V]){
 int main()
 {
     fastio;
-    int graph[V][V] = { {0,5,INF,10},
-                        {INF,0,3,INF},
-                        {INF,INF,0,1},
-                        {INF,INF,INF,0}};
+    int graph[V][V] = { {0,10,5,5,INF},
+                        {INF,0,5,5,5},
+                        {INF,INF,0,INF,10},
+                        {INF,INF,INF,0,20},
+                        {INF,INF,INF,5,0}};
     FloydWarshall(graph);
     return 0;
 
